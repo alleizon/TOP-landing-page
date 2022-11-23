@@ -1,4 +1,39 @@
 body {
-    display:flex;
+    display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header, .content-top, .content-mid, .content-bot, .footer {
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    height: 65px;
+    background-color: #1f2937;
+    flex: 0 1 auto;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.content-mid {
+    background-color: #e5e7eb;
 }
